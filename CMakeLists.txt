@@ -39,7 +39,7 @@ if (${BNN_NET_BENCHMARK})
 endif()
 
 if (${BNN_BUILD_ANDROID})
-    set(CMAKE_CXX_STANDARD 17)
+    set(CMAKE_CXX_STANDARD 11)
 
     if (${BNN_BUILD_TEST})
         include(cmake/gtest.cmake)
